@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Quokkify — Build once. Automate forever.</title>
+  <desc id="desc">A friendly geometric quokka beside a four-stage software delivery automation pipeline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf1"/>
+      <stop offset="1" stop-color="#f5f7f2"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4b860"/>
+      <stop offset="1" stop-color="#d9823b"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e49a46"/>
+      <stop offset="0.45" stop-color="#2aa889"/>
+      <stop offset="1" stop-color="#138a72"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#17211f" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="30" fill="url(#bg)"/>
+  <path d="M0 350C178 305 305 391 478 350S806 313 1200 357V420H0Z" fill="#eaf3ed"/>
+  <circle cx="1088" cy="72" r="74" fill="#e8f4ef"/>
+  <circle cx="1120" cy="48" r="8" fill="#24a287" opacity=".55"/>
+  <circle cx="1065" cy="96" r="5" fill="#e49a46" opacity=".7"/>
+
+  <!-- Geometric quokka mascot -->
+  <g transform="translate(54 55)" filter="url(#shadow)">
+    <path d="M85 222C35 244 25 295 65 314C95 328 118 299 101 276C89 260 72 261 58 270" fill="none" stroke="#b96f34" stroke-width="22" stroke-linecap="round"/>
+    <ellipse cx="145" cy="237" rx="83" ry="92" fill="url(#amber)"/>
+    <ellipse cx="145" cy="253" rx="55" ry="62" fill="#ffd99b" opacity=".86"/>
+    <path d="M93 92C69 62 75 28 101 22C124 17 137 42 129 78Z" fill="#d9823b"/>
+    <path d="M197 92C221 62 215 28 189 22C166 17 153 42 161 78Z" fill="#d9823b"/>
+    <path d="M99 69C89 48 94 37 104 35C116 33 120 47 117 64Z" fill="#ffd99b"/>
+    <path d="M191 69C201 48 196 37 186 35C174 33 170 47 173 64Z" fill="#ffd99b"/>
+    <circle cx="145" cy="126" r="75" fill="url(#amber)"/>
+    <ellipse cx="145" cy="151" rx="51" ry="42" fill="#ffd99b"/>
+    <circle cx="119" cy="115" r="8" fill="#1d2926"/>
+    <circle cx="171" cy="115" r="8" fill="#1d2926"/>
+    <circle cx="116" cy="112" r="2.5" fill="#fff"/>
+    <circle cx="168" cy="112" r="2.5" fill="#fff"/>
+    <path d="M135 140Q145 131 155 140Q153 151 145 152Q137 151 135 140Z" fill="#513629"/>
+    <path d="M124 159Q145 178 166 159" fill="none" stroke="#513629" stroke-width="6" stroke-linecap="round"/>
+    <path d="M89 220Q58 207 59 184" fill="none" stroke="#d9823b" stroke-width="22" stroke-linecap="round"/>
+    <path d="M201 220Q229 207 231 184" fill="none" stroke="#d9823b" stroke-width="22" stroke-linecap="round"/>
+    <ellipse cx="103" cy="316" rx="46" ry="20" fill="#c67638"/>
+    <ellipse cx="187" cy="316" rx="46" ry="20" fill="#c67638"/>
+    <circle cx="59" cy="180" r="12" fill="#ffd99b"/>
+    <circle cx="231" cy="180" r="12" fill="#ffd99b"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g fill="#17211f">
+    <text x="345" y="145" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="80" font-weight="760" letter-spacing="-3">Quokkify</text>
+    <text x="350" y="192" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="520" letter-spacing=".3">Build once. Automate forever.</text>
+  </g>
+
+  <!-- Automation pipeline -->
+  <g transform="translate(348 240)">
+    <path d="M52 57H690" stroke="#cfdcd5" stroke-width="12" stroke-linecap="round"/>
+    <path d="M52 57H690" stroke="url(#flow)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M211 50L222 57L211 64M381 50L392 57L381 64M551 50L562 57L551 64" fill="none" stroke="#fffaf1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Scaffold -->
+    <g transform="translate(0 5)" filter="url(#shadow)">
+      <rect width="104" height="104" rx="24" fill="#fffdf8" stroke="#dce7e1" stroke-width="2"/>
+      <rect x="28" y="31" width="22" height="22" rx="5" fill="#e49a46"/>
+      <rect x="55" y="31" width="22" height="22" rx="5" fill="#f3c27e"/>
+      <rect x="28" y="58" width="22" height="22" rx="5" fill="#f3c27e"/>
+      <rect x="55" y="58" width="22" height="22" rx="5" fill="#e49a46"/>
+    </g>
+
+    <!-- CI -->
+    <g transform="translate(170 5)" filter="url(#shadow)">
+      <rect width="104" height="104" rx="24" fill="#fffdf8" stroke="#dce7e1" stroke-width="2"/>
+      <path d="M39 31L72 52L39 73Z" fill="#1f9c80"/>
+      <path d="M57 69L66 78L84 57" fill="none" stroke="#17211f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Dependencies -->
+    <g transform="translate(340 5)" filter="url(#shadow)">
+      <rect width="104" height="104" rx="24" fill="#fffdf8" stroke="#dce7e1" stroke-width="2"/>
+      <path d="M52 31V52M32 68L52 52L72 68" fill="none" stroke="#1f9c80" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="52" cy="27" r="11" fill="#e49a46"/>
+      <circle cx="28" cy="73" r="11" fill="#1f9c80"/>
+      <circle cx="76" cy="73" r="11" fill="#1f9c80"/>
+    </g>
+
+    <!-- Verification -->
+    <g transform="translate(510 5)" filter="url(#shadow)">
+      <rect width="104" height="104" rx="24" fill="#fffdf8" stroke="#dce7e1" stroke-width="2"/>
+      <path d="M52 24L78 34V53C78 70 67 82 52 88C37 82 26 70 26 53V34Z" fill="#1f9c80"/>
+      <path d="M39 55L48 64L66 45" fill="none" stroke="#fffdf8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <circle cx="690" cy="57" r="13" fill="#138a72"/>
+    <path d="M684 57L689 62L698 52" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
