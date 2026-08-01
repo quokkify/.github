@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Quokkify Q monogram</title>
+  <desc id="desc">A minimal Q monogram with subtle quokka ears and an automation checkmark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="90" x2="900" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14312c"/><stop offset="1" stop-color="#0d1d1a"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="300" y1="220" x2="760" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7c774"/><stop offset="1" stop-color="#e58e43"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
+  <path d="M310 292L266 180Q256 148 292 148H382Q410 148 410 180V270Z" fill="#e58e43"/>
+  <path d="M714 292L758 180Q768 148 732 148H642Q614 148 614 180V270Z" fill="#e58e43"/>
+  <path d="M511 228C306 228 186 365 186 545C186 725 306 844 500 844C580 844 648 824 700 786L790 866L884 760L786 676C814 634 830 589 830 539C830 360 710 228 511 228ZM511 374C614 374 678 441 678 542C678 642 614 704 511 704C408 704 338 642 338 542C338 441 408 374 511 374Z" fill="url(#mark)"/>
+  <circle cx="511" cy="538" r="112" fill="#14312c"/>
+  <path d="M452 542L493 583L579 493" fill="none" stroke="#42d2ad" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
