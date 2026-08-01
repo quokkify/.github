@@ -1,7 +1,14 @@
 # Quokkify
 
 <p align="center">
-  <strong>Automation that makes software delivery repeatable</strong><br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/quokkify/.github/main/assets/quokkify-banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/quokkify/.github/main/assets/quokkify-banner-light.svg" />
+    <img src="https://raw.githubusercontent.com/quokkify/.github/main/assets/quokkify-banner-light.svg" alt="Quokkify — Build once. Automate forever." width="100%" />
+  </picture>
+</p>
+
+<p align="center">
   Reusable workflows, actions, presets, and testing utilities for consistent engineering across projects.
 </p>
 
