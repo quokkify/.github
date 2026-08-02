@@ -57,9 +57,14 @@ We build small, dependable tools that remove repetitive work from software deliv
 ## How the pieces fit together
 
 ```text
-Scaffold projects  →  Run consistent CI  →  Keep dependencies current  →  Verify services and tests
- project-toolkit        project-toolkit         renovate-presets             compose-health-check-action
-                                                                                + autokit
+project-toolkit
+Scaffolding • CI workflows
+        ↓
+renovate-presets
+Dependency maintenance
+        ↓
+compose-health-check-action + autokit
+Service and test verification
 ```
 
 Each repository can be used independently. Together they form a practical automation layer for creating, maintaining, and validating software projects without copying the same setup from repository to repository.
