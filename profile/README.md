@@ -45,6 +45,7 @@ We build small, dependable tools that remove repetitive work from software deliv
 | :-- | :-- | :-- |
 | [compose-health-check-action](https://github.com/quokkify/compose-health-check-action) | [![Release](https://img.shields.io/github/v/release/quokkify/compose-health-check-action)](https://github.com/quokkify/compose-health-check-action/releases) | Runs Docker Compose with health checks, platform detection, and actionable failure diagnostics. |
 | [gh-pages-subdir-action](https://github.com/quokkify/gh-pages-subdir-action) | [![Release](https://img.shields.io/github/v/release/quokkify/gh-pages-subdir-action)](https://github.com/quokkify/gh-pages-subdir-action/releases) | Publishes generated sites and test reports into isolated GitHub Pages subdirectories while preserving sibling deployments. |
+| [allure-report-action](https://github.com/quokkify/allure-report-action) | [![Release](https://img.shields.io/github/v/release/quokkify/allure-report-action)](https://github.com/quokkify/allure-report-action/releases) | Builds Allure reports, badges, and idempotent pull-request test summaries, with optional pyramid artifacts and Pages publishing. |
 
 ## Quality engineering
 
@@ -63,8 +64,8 @@ Scaffolding • CI workflows
 renovate-presets
 Dependency maintenance
         ↓
-compose-health-check-action + autokit
-Service and test verification
+compose-health-check-action + allure-report-action + autokit
+Service, report, and test verification
 ```
 
 Each repository can be used independently. Together they form a practical automation layer for creating, maintaining, and validating software projects without copying the same setup from repository to repository.
