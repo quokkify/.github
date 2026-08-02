@@ -44,6 +44,7 @@ We build small, dependable tools that remove repetitive work from software deliv
 | Repository | Version | Description |
 | :-- | :-- | :-- |
 | [compose-health-check-action](https://github.com/quokkify/compose-health-check-action) | [![Release](https://img.shields.io/github/v/release/quokkify/compose-health-check-action)](https://github.com/quokkify/compose-health-check-action/releases) | Runs Docker Compose with health checks, platform detection, and actionable failure diagnostics. |
+| [gh-pages-subdir-action](https://github.com/quokkify/gh-pages-subdir-action) | [![Release](https://img.shields.io/github/v/release/quokkify/gh-pages-subdir-action)](https://github.com/quokkify/gh-pages-subdir-action/releases) | Publishes generated sites and test reports into isolated GitHub Pages subdirectories while preserving sibling deployments. |
 
 ## Quality engineering
 
