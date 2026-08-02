@@ -34,23 +34,25 @@ We build small, dependable tools that remove repetitive work from software deliv
 
 ## Project automation
 
-| Repository | Version | Description |
-| :-- | :-- | :-- |
-| [project-toolkit](https://github.com/quokkify/project-toolkit) | [![Release](https://img.shields.io/github/v/release/quokkify/project-toolkit)](https://github.com/quokkify/project-toolkit/releases) | Reusable workflows, composite actions, and Copier templates for Python, Node.js, Java, Docker, and polyglot repositories. |
-| [renovate-presets](https://github.com/quokkify/renovate-presets) | [![Release](https://img.shields.io/github/v/release/quokkify/renovate-presets)](https://github.com/quokkify/renovate-presets/releases) | Shared Renovate presets for consistent, reviewable dependency updates across projects. |
+| Repository | Version | Release age | Description |
+| :-- | :-- | :-- | :-- |
+| [project-toolkit](https://github.com/quokkify/project-toolkit) | [![Release](https://img.shields.io/github/v/release/quokkify/project-toolkit)](https://github.com/quokkify/project-toolkit/releases) | [![Release age](https://img.shields.io/badge/release%20age-0%20days-blue)](https://github.com/quokkify/project-toolkit/releases) | Reusable workflows, composite actions, and Copier templates for Python, Node.js, Java, Docker, and polyglot repositories. |
+| [renovate-presets](https://github.com/quokkify/renovate-presets) | [![Release](https://img.shields.io/github/v/release/quokkify/renovate-presets)](https://github.com/quokkify/renovate-presets/releases) | [![Release age](https://img.shields.io/badge/release%20age-1%20day-blue)](https://github.com/quokkify/renovate-presets/releases) | Shared Renovate presets for consistent, reviewable dependency updates across projects. |
 
 ## CI/CD tooling
 
-| Repository | Version | Description |
-| :-- | :-- | :-- |
-| [compose-health-check-action](https://github.com/quokkify/compose-health-check-action) | [![Release](https://img.shields.io/github/v/release/quokkify/compose-health-check-action)](https://github.com/quokkify/compose-health-check-action/releases) | Runs Docker Compose with health checks, platform detection, and actionable failure diagnostics. |
-| [gh-pages-subdir-action](https://github.com/quokkify/gh-pages-subdir-action) | [![Release](https://img.shields.io/github/v/release/quokkify/gh-pages-subdir-action)](https://github.com/quokkify/gh-pages-subdir-action/releases) | Publishes generated sites and test reports into isolated GitHub Pages subdirectories while preserving sibling deployments. |
+| Repository | Version | Release age | Description |
+| :-- | :-- | :-- | :-- |
+| [compose-health-check-action](https://github.com/quokkify/compose-health-check-action) | [![Release](https://img.shields.io/github/v/release/quokkify/compose-health-check-action)](https://github.com/quokkify/compose-health-check-action/releases) | [![Release age](https://img.shields.io/badge/release%20age-1%20day-blue)](https://github.com/quokkify/compose-health-check-action/releases) | Runs Docker Compose with health checks, platform detection, and actionable failure diagnostics. |
+| [gh-pages-subdir-action](https://github.com/quokkify/gh-pages-subdir-action) | [![Release](https://img.shields.io/github/v/release/quokkify/gh-pages-subdir-action)](https://github.com/quokkify/gh-pages-subdir-action/releases) | [![Release age](https://img.shields.io/badge/release%20age-0%20days-blue)](https://github.com/quokkify/gh-pages-subdir-action/releases) | Publishes generated sites and test reports into isolated GitHub Pages subdirectories while preserving sibling deployments. |
 
 ## Quality engineering
 
-| Repository | Version | Description |
-| :-- | :-- | :-- |
-| [autokit](https://github.com/quokkify/autokit) | [![Release](https://img.shields.io/github/v/release/quokkify/autokit)](https://github.com/quokkify/autokit/releases) | Modular Java utilities and integrations for building maintainable test automation. |
+| Repository | Version | Release age | Description |
+| :-- | :-- | :-- | :-- |
+| [autokit](https://github.com/quokkify/autokit) | [![Release](https://img.shields.io/github/v/release/quokkify/autokit)](https://github.com/quokkify/autokit/releases) | [![Release age](https://img.shields.io/badge/release%20age-1%20day-blue)](https://github.com/quokkify/autokit/releases) | Modular Java utilities and integrations for building maintainable test automation. |
+
+_Release age is refreshed daily from each repository's latest published GitHub release._
 
 ---
 
