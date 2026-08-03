@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Reusable workflows, actions, presets, and testing utilities for consistent engineering across projects.
+  Reusable workflows, actions, presets, agent skills, and testing utilities for consistent engineering across projects.
 </p>
 
 <p align="center">
@@ -23,6 +23,7 @@
 - Turn repeated setup and maintenance into reusable automation
 - Build composable CI/CD workflows and GitHub Actions
 - Standardize dependency updates, releases, and project scaffolding
+- Share portable agent workflows with explicit safety and recovery boundaries
 - Make Docker Compose validation reliable and easy to diagnose
 - Create practical testing utilities for real delivery pipelines
 
@@ -38,6 +39,12 @@ We build small, dependable tools that remove repetitive work from software deliv
 | :-- | :-- | :-- |
 | [project-toolkit](https://github.com/quokkify/project-toolkit) | [![Release](https://img.shields.io/github/v/release/quokkify/project-toolkit)](https://github.com/quokkify/project-toolkit/releases) | Reusable workflows, composite actions, and Copier templates for Python, Node.js, Java, Docker, and polyglot repositories. |
 | [renovate-presets](https://github.com/quokkify/renovate-presets) | [![Release](https://img.shields.io/github/v/release/quokkify/renovate-presets)](https://github.com/quokkify/renovate-presets/releases) | Shared Renovate presets for consistent, reviewable dependency updates across projects. |
+
+## Agent engineering
+
+| Repository | Version | Description |
+| :-- | :-- | :-- |
+| [skills](https://github.com/quokkify/skills) | [![Release](https://img.shields.io/github/v/release/quokkify/skills)](https://github.com/quokkify/skills/releases) | Portable skills, adapters, and safety-focused execution patterns for Hermes, Claude Code, Codex, and compatible agents. |
 
 ## CI/CD tooling
 
