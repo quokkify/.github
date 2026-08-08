@@ -58,7 +58,7 @@ We build small, dependable tools that remove repetitive work from software deliv
 
 | Repository | Version | Description |
 | :-- | :-- | :-- |
-| [Q4J](https://github.com/quokkify/q4j) | [![Release](https://img.shields.io/github/v/release/quokkify/q4j)](https://github.com/quokkify/q4j/releases) | Modular Java libraries and integrations for test automation and quality engineering. |
+| [q4j](https://github.com/quokkify/q4j) | [![Release](https://img.shields.io/github/v/release/quokkify/q4j)](https://github.com/quokkify/q4j/releases) | Modular Java libraries and integrations for test automation and quality engineering. |
 
 ---
 
