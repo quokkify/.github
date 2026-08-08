@@ -58,7 +58,7 @@ We build small, dependable tools that remove repetitive work from software deliv
 
 | Repository | Version | Description |
 | :-- | :-- | :-- |
-| [autokit](https://github.com/quokkify/autokit) | [![Release](https://img.shields.io/github/v/release/quokkify/autokit)](https://github.com/quokkify/autokit/releases) | Modular Java utilities and integrations for building maintainable test automation. |
+| [Q4J](https://github.com/quokkify/q4j) | [![Release](https://img.shields.io/github/v/release/quokkify/q4j)](https://github.com/quokkify/q4j/releases) | Modular Java libraries and integrations for test automation and quality engineering. |
 
 ---
 
@@ -71,7 +71,7 @@ Scaffolding • CI workflows
 renovate-presets
 Dependency maintenance
         ↓
-compose-health-check-action + allure-report-action + autokit
+compose-health-check-action + allure-report-action + q4j
 Service, report, and test verification
 ```
 
