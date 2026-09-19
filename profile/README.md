@@ -109,3 +109,15 @@ Good automation should save time without hiding how a project works. We favor to
 ## Contributing
 
 Ideas, issues, and contributions are welcome. If you find repetitive engineering work that could become a reusable tool—or see a way to improve an existing project—open an issue in the relevant repository.
+
+## Migrated projects
+
+These repositories are maintained under the Quokkify organization. Their former `ylazakovich/*` URLs redirect to the organization repositories. Project-specific showcase assets are versioned here so project READMEs can use stable raw URLs.
+
+| Repository | Status | Showcase |
+| :-- | :-- | :-- |
+| [car-service-platform](https://github.com/quokkify/car-service-platform) | Beta · active development · production readiness not certified | [Dashboard](https://raw.githubusercontent.com/quokkify/.github/main/assets/projects/car-service-platform/dashboard.png) |
+| [marketdesk](https://github.com/quokkify/marketdesk) | Prototype · active development · not ready for production | [Products](https://raw.githubusercontent.com/quokkify/.github/main/assets/projects/marketdesk/products.png) |
+| [path-of-exile-starter](https://github.com/quokkify/path-of-exile-starter) | Active development · production readiness not certified | [Preview](https://raw.githubusercontent.com/quokkify/.github/main/assets/projects/path-of-exile-starter/preview.gif) |
+
+Project repositories retain runtime-required local assets; only documentation/showcase copies are hosted here. See each project README for its asset inventory and Copier update command.
