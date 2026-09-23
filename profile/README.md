@@ -16,7 +16,7 @@
 
 ## Start here: project-toolkit
 
-[`project-toolkit`](https://github.com/quokkify/project-toolkit) is the starting point for Quokkify's shared engineering approach. It contains reusable workflows, composite actions, and Copier templates for Python, Node.js, Java, Docker, and polyglot repositories.
+[`project-toolkit`](https://github.com/quokkify/project-toolkit) [![Release](https://img.shields.io/github/v/release/quokkify/project-toolkit)](https://github.com/quokkify/project-toolkit/releases) is the starting point for Quokkify's shared engineering approach. It contains reusable workflows, composite actions, and Copier templates for Python, Node.js, Java, Docker, and polyglot repositories.
 
 It is a foundation and a point of orientation—not a claim that every repository depends on every part of it.
 
@@ -26,30 +26,30 @@ Quokkify repositories are grouped by role. This is a navigation map, not a ranki
 
 ### Foundation and shared delivery
 
-- [`project-toolkit`](https://github.com/quokkify/project-toolkit) — reusable project scaffolding, workflows, actions, and templates.
-- [`renovate-presets`](https://github.com/quokkify/renovate-presets) — shared Renovate configuration for consistent dependency updates.
+- [`project-toolkit`](https://github.com/quokkify/project-toolkit) [![Release](https://img.shields.io/github/v/release/quokkify/project-toolkit)](https://github.com/quokkify/project-toolkit/releases) — reusable project scaffolding, workflows, actions, and templates.
+- [`renovate-presets`](https://github.com/quokkify/renovate-presets) [![Release](https://img.shields.io/github/v/release/quokkify/renovate-presets)](https://github.com/quokkify/renovate-presets/releases) — shared Renovate configuration for consistent dependency updates.
 
 ### CI/CD actions
 
-- [`compose-health-check-action`](https://github.com/quokkify/compose-health-check-action) — runs Docker Compose with health checks and actionable diagnostics.
-- [`gh-pages-subdir-action`](https://github.com/quokkify/gh-pages-subdir-action) — publishes generated sites and reports into isolated GitHub Pages subdirectories.
-- [`allure-report-action`](https://github.com/quokkify/allure-report-action) — builds Allure reports and pull-request test summaries, with optional Pages publishing.
+- [`compose-health-check-action`](https://github.com/quokkify/compose-health-check-action) [![Release](https://img.shields.io/github/v/release/quokkify/compose-health-check-action)](https://github.com/quokkify/compose-health-check-action/releases) — runs Docker Compose with health checks and actionable diagnostics.
+- [`gh-pages-subdir-action`](https://github.com/quokkify/gh-pages-subdir-action) [![Release](https://img.shields.io/github/v/release/quokkify/gh-pages-subdir-action)](https://github.com/quokkify/gh-pages-subdir-action/releases) — publishes generated sites and reports into isolated GitHub Pages subdirectories.
+- [`allure-report-action`](https://github.com/quokkify/allure-report-action) [![Release](https://img.shields.io/github/v/release/quokkify/allure-report-action)](https://github.com/quokkify/allure-report-action/releases) — builds Allure reports and pull-request test summaries, with optional Pages publishing.
 
 ### Engineering libraries
 
-- [`q4j`](https://github.com/quokkify/q4j) — modular Java libraries and integrations for test automation and quality engineering.
+- [`q4j`](https://github.com/quokkify/q4j) [![Release](https://img.shields.io/github/v/release/quokkify/q4j)](https://github.com/quokkify/q4j/releases) — modular Java libraries and integrations for test automation and quality engineering.
 
 ### Agent resources
 
-- [`skills`](https://github.com/quokkify/skills) — portable skills, adapters, and safety-focused execution patterns for AI agents.
+- [`skills`](https://github.com/quokkify/skills) [![Release](https://img.shields.io/github/v/release/quokkify/skills)](https://github.com/quokkify/skills/releases) — portable skills, adapters, and safety-focused execution patterns for AI agents.
 
 ### Applications and experiments
 
 These repositories demonstrate applications of the same engineering mindset. They are listed for discoverability, not as production-ready product endorsements.
 
-- [`car-service-platform`](https://github.com/quokkify/car-service-platform) — CRM and operations workspace for automotive service businesses.
-- [`marketdesk`](https://github.com/quokkify/marketdesk) — internal marketplace workspace for managing products and listings across Polish marketplaces.
-- [`path-of-exile-starter`](https://github.com/quokkify/path-of-exile-starter) — Telegram bot and supporting services for Path of Exile trading and market data.
+- [`car-service-platform`](https://github.com/quokkify/car-service-platform) [![Release](https://img.shields.io/github/v/release/quokkify/car-service-platform)](https://github.com/quokkify/car-service-platform/releases) — CRM and operations workspace for automotive service businesses.
+- [`marketdesk`](https://github.com/quokkify/marketdesk) [![Release](https://img.shields.io/github/v/release/quokkify/marketdesk)](https://github.com/quokkify/marketdesk/releases) — internal marketplace workspace for managing products and listings across Polish marketplaces.
+- [`path-of-exile-starter`](https://github.com/quokkify/path-of-exile-starter) [![Release](https://img.shields.io/github/v/release/quokkify/path-of-exile-starter)](https://github.com/quokkify/path-of-exile-starter/releases) — Telegram bot and supporting services for Path of Exile trading and market data.
 
 ## How the repositories relate
 
