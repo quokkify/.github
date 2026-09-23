@@ -9,117 +9,84 @@
 </p>
 
 <p align="center">
-  Reusable workflows, actions, presets, agent skills, testing utilities, and practical applications for consistent engineering across projects.
-</p>
-
-<p align="center">
-  <a href="https://github.com/quokkify"><img src="https://img.shields.io/badge/GitHub-quokkify-181717?logo=github" alt="GitHub organization" /></a>
+  Reusable delivery foundations, engineering tools, agent resources, and practical applications for more consistent software projects.
 </p>
 
 ---
 
-## What we do
+## Start here: project-toolkit
 
-- Turn repeated setup and maintenance into reusable automation
-- Build composable CI/CD workflows and GitHub Actions
-- Standardize dependency updates, releases, and project scaffolding
-- Share portable agent workflows with explicit safety and recovery boundaries
-- Make Docker Compose validation reliable and easy to diagnose
-- Create practical testing utilities for real delivery pipelines
-- Build focused products that apply this automation to real workflows
+[`project-toolkit`](https://github.com/quokkify/project-toolkit) is the starting point for Quokkify's shared engineering approach. It contains reusable workflows, composite actions, and Copier templates for Python, Node.js, Java, Docker, and polyglot repositories.
 
-## Our focus
+It is a foundation and a point of orientation—not a claim that every repository depends on every part of it.
 
-We build small, dependable tools and useful applications that remove repetitive work from software delivery and everyday operations. The goal is straightforward: consistent project setup, predictable CI, safer dependency maintenance, and clear diagnostics when something fails.
+## Repository map
 
-## Projects & applications
+Quokkify repositories are grouped by role. This is a navigation map, not a ranking of product readiness or importance.
 
-The project map starts with the foundation everything else grows from: **project-toolkit**. It provides the scaffolding and delivery patterns used across the organization; the applications below are built and maintained on top of that foundation.
+### Foundation and shared delivery
 
-Maturity labels describe the current engineering state, not a production SLA. Each project keeps its detailed status and known gaps in its own repository.
+- [`project-toolkit`](https://github.com/quokkify/project-toolkit) — reusable project scaffolding, workflows, actions, and templates.
+- [`renovate-presets`](https://github.com/quokkify/renovate-presets) — shared Renovate configuration for consistent dependency updates.
 
-| Repository | Maturity | What it is |
-| :-- | :-- | :-- |
-| [project-toolkit](https://github.com/quokkify/project-toolkit) | **Foundation · actively maintained** | Reusable workflows, composite actions, and Copier templates for Python, Node.js, Java, Docker, and polyglot repositories. |
-| [car-service-platform](https://github.com/quokkify/car-service-platform) | **Beta · active development** | CRM and operations workspace for automotive service businesses: repairs, vehicles, parts, purchasing, documents, dashboards, and customer updates. Django/DRF + React/Vite + PostgreSQL. |
-| [marketdesk](https://github.com/quokkify/marketdesk) | **Prototype · active development** | Hermes-connected internal marketplace workspace for managing products and listings across Polish marketplaces. The platform is unfinished and remains an internal work in progress. |
-| [path-of-exile-starter](https://github.com/quokkify/path-of-exile-starter) | **Active development** | Telegram bot and supporting services that help Path of Exile players get started with trading and market data. |
+### CI/CD actions
 
-## Shared project automation
+- [`compose-health-check-action`](https://github.com/quokkify/compose-health-check-action) — runs Docker Compose with health checks and actionable diagnostics.
+- [`gh-pages-subdir-action`](https://github.com/quokkify/gh-pages-subdir-action) — publishes generated sites and reports into isolated GitHub Pages subdirectories.
+- [`allure-report-action`](https://github.com/quokkify/allure-report-action) — builds Allure reports and pull-request test summaries, with optional Pages publishing.
 
-| Repository | Version | Description |
-| :-- | :-- | :-- |
-| [renovate-presets](https://github.com/quokkify/renovate-presets) | [![Release](https://img.shields.io/github/v/release/quokkify/renovate-presets)](https://github.com/quokkify/renovate-presets/releases) | Shared Renovate presets for consistent, reviewable dependency updates across projects. |
+### Engineering libraries
 
-## Agent engineering
+- [`q4j`](https://github.com/quokkify/q4j) — modular Java libraries and integrations for test automation and quality engineering.
 
-| Repository | Version | Description |
-| :-- | :-- | :-- |
-| [skills](https://github.com/quokkify/skills) | [![Release](https://img.shields.io/github/v/release/quokkify/skills)](https://github.com/quokkify/skills/releases) | Portable skills, adapters, and safety-focused execution patterns for Hermes, Claude Code, Codex, and compatible agents. |
+### Agent resources
 
-## CI/CD tooling
+- [`skills`](https://github.com/quokkify/skills) — portable skills, adapters, and safety-focused execution patterns for AI agents.
 
-| Repository | Version | Description |
-| :-- | :-- | :-- |
-| [compose-health-check-action](https://github.com/quokkify/compose-health-check-action) | [![Release](https://img.shields.io/github/v/release/quokkify/compose-health-check-action)](https://github.com/quokkify/compose-health-check-action/releases) | Runs Docker Compose with health checks, platform detection, and actionable failure diagnostics. |
-| [gh-pages-subdir-action](https://github.com/quokkify/gh-pages-subdir-action) | [![Release](https://img.shields.io/github/v/release/quokkify/gh-pages-subdir-action)](https://github.com/quokkify/gh-pages-subdir-action/releases) | Publishes generated sites and test reports into isolated GitHub Pages subdirectories while preserving sibling deployments. |
-| [allure-report-action](https://github.com/quokkify/allure-report-action) | [![Release](https://img.shields.io/github/v/release/quokkify/allure-report-action)](https://github.com/quokkify/allure-report-action/releases) | Builds Allure reports, badges, and idempotent pull-request test summaries, with optional pyramid artifacts and Pages publishing. |
+### Applications and experiments
 
-## Quality engineering
+These repositories demonstrate applications of the same engineering mindset. They are listed for discoverability, not as production-ready product endorsements.
 
-| Repository | Version | Description |
-| :-- | :-- | :-- |
-| [q4j](https://github.com/quokkify/q4j) | [![Release](https://img.shields.io/github/v/release/quokkify/q4j)](https://github.com/quokkify/q4j/releases) | Modular Java libraries and integrations for test automation and quality engineering. |
+- [`car-service-platform`](https://github.com/quokkify/car-service-platform) — CRM and operations workspace for automotive service businesses.
+- [`marketdesk`](https://github.com/quokkify/marketdesk) — internal marketplace workspace for managing products and listings across Polish marketplaces.
+- [`path-of-exile-starter`](https://github.com/quokkify/path-of-exile-starter) — Telegram bot and supporting services for Path of Exile trading and market data.
 
----
+## How the repositories relate
 
-## How the pieces fit together
+- **Project foundations** provide repeatable scaffolding and delivery patterns.
+- **Presets, actions, and libraries** are independently usable building blocks for CI/CD, maintenance, reporting, and quality engineering.
+- **Agent resources** describe portable workflows and execution patterns for compatible AI agents.
+- **Applications and experiments** apply selected practices to real workflows; they do not imply a single mandatory dependency chain.
 
-```text
-project-toolkit
-Scaffolding • CI workflows
-        ↓
-renovate-presets
-Dependency maintenance
-        ↓
-compose-health-check-action + allure-report-action + q4j
-Service, report, and test verification
-        ↓
-car-service-platform + marketdesk + path-of-exile-starter
-Applications built and maintained with the same delivery foundations
-```
+The repositories can be used independently. Together, they form a toolkit for creating, maintaining, testing, and applying software projects.
 
-Each repository can be used independently. Together they form a practical automation layer for creating, maintaining, and validating software projects—and for applying those foundations to real products.
+## Reading project status correctly
+
+The profile is intentionally a stable navigation page, not a live project-status registry.
+
+For each repository, treat its own README and status files as the source of truth for:
+
+- maturity and implementation state;
+- production readiness and known gaps;
+- supported runtimes, integrations, and deployment constraints;
+- releases, roadmap, and current capabilities.
+
+Unless a repository explicitly says otherwise, production readiness should not be assumed.
 
 ## Principles
 
-- **Reusable over repeated** — common engineering work belongs in versioned building blocks
-- **Composable over monolithic** — adopt only the automation a project needs
-- **Predictable over clever** — explicit versions, reviewable updates, and stable contracts
-- **Diagnostics by default** — failures should explain what broke and where to look
-- **Automation with control** — routine work runs automatically; important changes stay visible
-- **Honest maturity** — unfinished projects should say so clearly
-
----
-
-## Philosophy
-
-**Build once. Automate forever.**
-
-Good automation should save time without hiding how a project works. We favor tools that are easy to adopt, safe to update, and useful across different stacks.
+- **Reusable over repeated** — common engineering work belongs in versioned building blocks.
+- **Composable over monolithic** — adopt only the automation a project needs.
+- **Predictable over clever** — prefer explicit versions, reviewable updates, and stable contracts.
+- **Diagnostics by default** — failures should explain what broke and where to look.
+- **Honest maturity** — unfinished projects should say so clearly.
 
 ## Contributing
 
 Ideas, issues, and contributions are welcome. If you find repetitive engineering work that could become a reusable tool—or see a way to improve an existing project—open an issue in the relevant repository.
 
-## Migrated projects
+Project-specific screenshots, demos, setup instructions, and detailed status belong in the corresponding project repository, where their context can be kept current.
 
-These repositories are maintained under the Quokkify organization. Their former `ylazakovich/*` URLs redirect to the organization repositories. Project-specific showcase assets are versioned here so project READMEs can use stable raw URLs.
+---
 
-| Repository | Status | Showcase |
-| :-- | :-- | :-- |
-| [car-service-platform](https://github.com/quokkify/car-service-platform) | Beta · active development · production readiness not certified | [Dashboard](https://raw.githubusercontent.com/quokkify/.github/main/assets/projects/car-service-platform/dashboard.png) |
-| [marketdesk](https://github.com/quokkify/marketdesk) | Prototype · active development · not ready for production | [Products](https://raw.githubusercontent.com/quokkify/.github/main/assets/projects/marketdesk/products.png) |
-| [path-of-exile-starter](https://github.com/quokkify/path-of-exile-starter) | Active development · production readiness not certified | [Preview](https://raw.githubusercontent.com/quokkify/.github/main/assets/projects/path-of-exile-starter/preview.gif) |
-
-Project repositories retain runtime-required local assets; only documentation/showcase copies are hosted here. See each project README for its asset inventory and Copier update command.
+**Build once. Automate forever.**
