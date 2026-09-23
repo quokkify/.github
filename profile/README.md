@@ -34,19 +34,21 @@ We build small, dependable tools and useful applications that remove repetitive 
 
 ## Projects & applications
 
+The project map starts with the foundation everything else grows from: **project-toolkit**. It provides the scaffolding and delivery patterns used across the organization; the applications below are built and maintained on top of that foundation.
+
 Maturity labels describe the current engineering state, not a production SLA. Each project keeps its detailed status and known gaps in its own repository.
 
 | Repository | Maturity | What it is |
 | :-- | :-- | :-- |
+| [project-toolkit](https://github.com/quokkify/project-toolkit) | **Foundation · actively maintained** | Reusable workflows, composite actions, and Copier templates for Python, Node.js, Java, Docker, and polyglot repositories. |
 | [car-service-platform](https://github.com/quokkify/car-service-platform) | **Beta · active development** | CRM and operations workspace for automotive service businesses: repairs, vehicles, parts, purchasing, documents, dashboards, and customer updates. Django/DRF + React/Vite + PostgreSQL. |
 | [marketdesk](https://github.com/quokkify/marketdesk) | **Prototype · active development** | Hermes-connected internal marketplace workspace for managing products and listings across Polish marketplaces. The platform is unfinished and remains an internal work in progress. |
 | [path-of-exile-starter](https://github.com/quokkify/path-of-exile-starter) | **Active development** | Telegram bot and supporting services that help Path of Exile players get started with trading and market data. |
 
-## Project automation
+## Shared project automation
 
 | Repository | Version | Description |
 | :-- | :-- | :-- |
-| [project-toolkit](https://github.com/quokkify/project-toolkit) | [![Release](https://img.shields.io/github/v/release/quokkify/project-toolkit)](https://github.com/quokkify/project-toolkit/releases) | Reusable workflows, composite actions, and Copier templates for Python, Node.js, Java, Docker, and polyglot repositories. |
 | [renovate-presets](https://github.com/quokkify/renovate-presets) | [![Release](https://img.shields.io/github/v/release/quokkify/renovate-presets)](https://github.com/quokkify/renovate-presets/releases) | Shared Renovate presets for consistent, reviewable dependency updates across projects. |
 
 ## Agent engineering
