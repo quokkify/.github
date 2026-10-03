@@ -22,7 +22,8 @@ Browse by purpose: project foundations, CI/CD actions, engineering libraries, ag
 
 | Repository | Version | Purpose |
 |---|---|---|
-| [`project-toolkit`](https://github.com/quokkify/project-toolkit) | [![Version](https://img.shields.io/github/v/release/quokkify/project-toolkit?label=version&style=flat-square&sort=date)](https://github.com/quokkify/project-toolkit/releases) | Reusable project scaffolding, workflows, composite actions, and Copier templates. |
+| [`ci-kit`](https://github.com/quokkify/ci-kit) | [![Version](https://img.shields.io/github/v/release/quokkify/ci-kit?label=version&style=flat-square&sort=date)](https://github.com/quokkify/ci-kit/releases) | Reusable CI workflows, composite actions, and a Copier template for repository CI, security scanning, and releases. |
+| [`java-test-automation-template`](https://github.com/quokkify/java-test-automation-template) | [![Version](https://img.shields.io/github/v/release/quokkify/java-test-automation-template?label=version&style=flat-square&sort=date)](https://github.com/quokkify/java-test-automation-template/releases) | Copier template for a Java 21 test automation project with q4j, TestNG, Gradle, Checkstyle, and SpotBugs. |
 | [`renovate-presets`](https://github.com/quokkify/renovate-presets) | [![Version](https://img.shields.io/github/v/release/quokkify/renovate-presets?label=version&style=flat-square&sort=date)](https://github.com/quokkify/renovate-presets/releases) | Shared Renovate configuration for consistent dependency updates. |
 
 ### CI/CD actions
@@ -57,7 +58,7 @@ Projects that apply these engineering practices to automotive services, marketpl
 
 ## How to use this collection
 
-- **Start or standardize a project:** explore `project-toolkit` for scaffolding and shared delivery patterns.
+- **Start or standardize a project:** generate CI and repository automation with `ci-kit`; add Java test automation with `java-test-automation-template`.
 - **Improve an existing pipeline:** choose individual actions, dependency presets, or libraries without adopting the whole collection.
 - **Work with AI agents:** explore `skills` for portable workflows and execution patterns.
 - **Explore practical applications:** visit the application repositories for setup instructions, demos, and project-specific capabilities.
