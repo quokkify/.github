@@ -40,13 +40,13 @@
   </g>
 
   <g filter="url(#shadow)">
-    <rect x="548" y="36" width="616" height="348" rx="24" fill="#EAF5EF"/>
-    <rect x="548.75" y="36.75" width="614.5" height="346.5" rx="23.25" fill="none" stroke="#4F947B" stroke-opacity=".24" stroke-width="1.5"/>
+    <rect x="548" y="36" width="636" height="348" rx="24" fill="#EAF5EF"/>
+    <rect x="548.75" y="36.75" width="634.5" height="346.5" rx="23.25" fill="none" stroke="#4F947B" stroke-opacity=".24" stroke-width="1.5"/>
   </g>
 
   <g font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif">
     <text x="586" y="67" font-size="10" font-weight="800" letter-spacing="1.6" fill="#3E6E60">SOURCE MODULES</text>
-    <text x="1126" y="67" text-anchor="end" font-size="10" font-weight="700" letter-spacing="1.4" fill="#5C8B78">BUILD PATH</text>
+    <text x="1148" y="67" text-anchor="end" font-size="10" font-weight="700" letter-spacing="1.4" fill="#5C8B78">BUILD PATH</text>
 
     <!-- Four stacked source tiles and their converging wires. -->
     <g stroke="#4D8D76" stroke-width="2.5" stroke-linecap="round" fill="none">
@@ -66,18 +66,18 @@
 
 
     <!-- Resulting pipeline: Template / Build -> CI -> Dependencies -> Verify. -->
-    <path d="M726 196H744" fill="none" stroke="url(#flow)" stroke-width="4" stroke-linecap="round"/>
-    <path d="M838 196H864M952 196H978M1066 196H1090" fill="none" stroke="#4D8D76" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="736" cy="196" r="4" fill="#E58E43"/>
-    <path d="M732 189L744 196L732 203Z" fill="#238B72"/>
+    <path d="M726 196H738" fill="none" stroke="url(#flow)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M832 196H858M946 196H972M1060 196H1086" fill="none" stroke="#4D8D76" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="730" cy="196" r="4" fill="#E58E43"/>
+    <path d="M726 189L738 196L726 203Z" fill="#238B72"/>
 
-    <g transform="translate(744 156)"><rect width="94" height="80" rx="18" fill="url(#tile)" stroke="#E58E43" stroke-width="2.5"/><rect x="19" y="17" width="56" height="30" rx="5" fill="#F3FBF7" stroke="#2D9677" stroke-width="2"/><path d="M27 27H44M50 27H67M27 37H63" stroke="#F2A65D" stroke-width="2.5" stroke-linecap="round"/><path d="M25 59H69" stroke="#42D2AD" stroke-width="3" stroke-linecap="round"/></g>
-    <g transform="translate(864 156)"><rect width="88" height="80" rx="18" fill="#D4E9DF" stroke="#5C9B82" stroke-width="2.5"/><rect x="20" y="20" width="48" height="38" rx="6" fill="#F3FBF7" stroke="#2D9677" stroke-width="2"/><path d="M29 34H40M48 34H59M29 45H55" stroke="#F2A65D" stroke-width="3" stroke-linecap="round"/><path d="M31 59L39 67L57 48" fill="none" stroke="#42D2AD" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
-    <g transform="translate(978 156)"><rect width="88" height="80" rx="18" fill="#D4E9DF" stroke="#5C9B82" stroke-width="2.5"/><circle cx="44" cy="31" r="6" fill="#2D9677"/><circle cx="29" cy="55" r="6" fill="#2D9677"/><circle cx="59" cy="55" r="6" fill="#2D9677"/><path d="M41 36L33 49M47 36L55 49" stroke="#2D9677" stroke-width="3" stroke-linecap="round"/></g>
-    <g transform="translate(1090 156)"><rect width="62" height="80" rx="18" fill="#D4E9DF" stroke="#5C9B82" stroke-width="2.5"/><path d="M31 18L48 24C47 43 41 55 31 63C21 55 15 43 14 24Z" fill="none" stroke="#2D9677" stroke-width="3.5" stroke-linejoin="round"/><path d="M23 39L29 45L40 32" fill="none" stroke="#F2A65D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g transform="translate(738 156)"><rect width="94" height="80" rx="18" fill="url(#tile)" stroke="#E58E43" stroke-width="2.5"/><rect x="19" y="17" width="56" height="30" rx="5" fill="#F3FBF7" stroke="#2D9677" stroke-width="2"/><path d="M27 27H44M50 27H67M27 37H63" stroke="#F2A65D" stroke-width="2.5" stroke-linecap="round"/><path d="M25 59H69" stroke="#42D2AD" stroke-width="3" stroke-linecap="round"/></g>
+    <g transform="translate(858 156)"><rect width="88" height="80" rx="18" fill="#D4E9DF" stroke="#5C9B82" stroke-width="2.5"/><rect x="20" y="20" width="48" height="38" rx="6" fill="#F3FBF7" stroke="#2D9677" stroke-width="2"/><path d="M29 34H40M48 34H59M29 45H55" stroke="#F2A65D" stroke-width="3" stroke-linecap="round"/><path d="M31 59L39 67L57 48" fill="none" stroke="#42D2AD" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g transform="translate(972 156)"><rect width="88" height="80" rx="18" fill="#D4E9DF" stroke="#5C9B82" stroke-width="2.5"/><circle cx="44" cy="31" r="6" fill="#2D9677"/><circle cx="29" cy="55" r="6" fill="#2D9677"/><circle cx="59" cy="55" r="6" fill="#2D9677"/><path d="M41 36L33 49M47 36L55 49" stroke="#2D9677" stroke-width="3" stroke-linecap="round"/></g>
+    <g transform="translate(1086 156)"><rect width="88" height="80" rx="18" fill="#D4E9DF" stroke="#5C9B82" stroke-width="2.5"/><path d="M44 14L66 21C65 42 56 58 44 68C32 58 23 42 22 21Z" fill="none" stroke="#2D9677" stroke-width="3.5" stroke-linejoin="round"/><path d="M32 40L41 49L58 29" fill="none" stroke="#F2A65D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
 
-    <g fill="#173B32" font-size="11.5" font-weight="750" text-anchor="middle"><text x="791" y="258">Template / Build</text><text x="908" y="258">CI</text><text x="1022" y="258">Dependencies</text><text x="1121" y="258">Verify</text></g>
-    <g fill="#4F7B69" font-size="9.5" font-weight="700" letter-spacing="1" text-anchor="middle"><text x="791" y="276">01</text><text x="908" y="276">02</text><text x="1022" y="276">03</text><text x="1121" y="276">04</text></g>
+    <g fill="#173B32" font-size="11.5" font-weight="750" text-anchor="middle"><text x="785" y="258">Template / Build</text><text x="902" y="258">CI</text><text x="1016" y="258">Dependencies</text><text x="1130" y="258">Verify</text></g>
+    <g fill="#4F7B69" font-size="9.5" font-weight="700" letter-spacing="1" text-anchor="middle"><text x="785" y="276">01</text><text x="902" y="276">02</text><text x="1016" y="276">03</text><text x="1130" y="276">04</text></g>
 
   </g>
 </svg>
