@@ -50,12 +50,12 @@
 
     <!-- Four stacked source tiles and their converging wires. -->
     <g stroke="#3C6D60" stroke-width="2.5" stroke-linecap="round" fill="none">
-      <path d="M650 101H704V196H726"/>
-      <path d="M650 167H704V196H726"/>
-      <path d="M650 233H704V196H726"/>
-      <path d="M650 299H704V196H726"/>
+      <path d="M650 101H676V196H698"/>
+      <path d="M650 167H676V196H698"/>
+      <path d="M650 233H676V196H698"/>
+      <path d="M650 299H676V196H698"/>
     </g>
-    <g fill="#F2A65D"><circle cx="704" cy="101" r="3"/><circle cx="704" cy="167" r="3"/><circle cx="704" cy="233" r="3"/><circle cx="704" cy="299" r="3"/></g>
+    <g fill="#F2A65D"><circle cx="676" cy="101" r="3"/><circle cx="676" cy="167" r="3"/><circle cx="676" cy="233" r="3"/><circle cx="676" cy="299" r="3"/></g>
 
     <g>
       <g transform="translate(578 73)"><rect width="72" height="56" rx="14" fill="#183A32" stroke="#3F7D6B" stroke-width="2"/><rect x="14" y="14" width="44" height="28" rx="5" fill="#102A24" stroke="#65C8AE" stroke-width="2"/><rect x="20" y="20" width="13" height="9" rx="2" fill="url(#thumbA)"/><rect x="38" y="20" width="14" height="9" rx="2" fill="url(#thumbB)"/><path d="M21 35H51" stroke="#65C8AE" stroke-width="2.5" stroke-linecap="round"/></g>
@@ -66,18 +66,18 @@
 
 
     <!-- Resulting pipeline: Template / Build -> CI -> Dependencies -> Verify. -->
-    <path d="M726 196H744" fill="none" stroke="url(#flow)" stroke-width="4" stroke-linecap="round"/>
-    <path d="M838 196H864M952 196H978M1066 196H1090" fill="none" stroke="#4B8475" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="736" cy="196" r="4" fill="#E58E43"/>
-    <path d="M732 189L744 196L732 203Z" fill="#28B394"/>
+    <path d="M698 196H716" fill="none" stroke="url(#flow)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M810 196H836M924 196H950M1038 196H1064" fill="none" stroke="#4B8475" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="708" cy="196" r="4" fill="#E58E43"/>
+    <path d="M704 189L716 196L704 203Z" fill="#28B394"/>
 
-    <g transform="translate(744 156)"><rect width="94" height="80" rx="18" fill="url(#tile)" stroke="#E58E43" stroke-width="2.5"/><rect x="19" y="17" width="56" height="30" rx="5" fill="#102A24" stroke="#65C8AE" stroke-width="2"/><path d="M27 27H44M50 27H67M27 37H63" stroke="#F2A65D" stroke-width="2.5" stroke-linecap="round"/><path d="M25 59H69" stroke="#42D2AD" stroke-width="3" stroke-linecap="round"/></g>
-    <g transform="translate(864 156)"><rect width="88" height="80" rx="18" fill="#183A32" stroke="#3F7D6B" stroke-width="2.5"/><rect x="20" y="20" width="48" height="38" rx="6" fill="#102A24" stroke="#65C8AE" stroke-width="2"/><path d="M29 34H40M48 34H59M29 45H55" stroke="#F2A65D" stroke-width="3" stroke-linecap="round"/><path d="M31 59L39 67L57 48" fill="none" stroke="#42D2AD" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
-    <g transform="translate(978 156)"><rect width="88" height="80" rx="18" fill="#183A32" stroke="#3F7D6B" stroke-width="2.5"/><circle cx="44" cy="31" r="6" fill="#65C8AE"/><circle cx="29" cy="55" r="6" fill="#65C8AE"/><circle cx="59" cy="55" r="6" fill="#65C8AE"/><path d="M41 36L33 49M47 36L55 49" stroke="#65C8AE" stroke-width="3" stroke-linecap="round"/></g>
-    <g transform="translate(1090 156)"><rect width="62" height="80" rx="18" fill="#183A32" stroke="#3F7D6B" stroke-width="2.5"/><path d="M31 18L48 24C47 43 41 55 31 63C21 55 15 43 14 24Z" fill="none" stroke="#65C8AE" stroke-width="3.5" stroke-linejoin="round"/><path d="M23 39L29 45L40 32" fill="none" stroke="#F2A65D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g transform="translate(716 156)"><rect width="94" height="80" rx="18" fill="url(#tile)" stroke="#E58E43" stroke-width="2.5"/><rect x="19" y="17" width="56" height="30" rx="5" fill="#102A24" stroke="#65C8AE" stroke-width="2"/><path d="M27 27H44M50 27H67M27 37H63" stroke="#F2A65D" stroke-width="2.5" stroke-linecap="round"/><path d="M25 59H69" stroke="#42D2AD" stroke-width="3" stroke-linecap="round"/></g>
+    <g transform="translate(836 156)"><rect width="88" height="80" rx="18" fill="#183A32" stroke="#3F7D6B" stroke-width="2.5"/><rect x="20" y="20" width="48" height="38" rx="6" fill="#102A24" stroke="#65C8AE" stroke-width="2"/><path d="M29 34H40M48 34H59M29 45H55" stroke="#F2A65D" stroke-width="3" stroke-linecap="round"/><path d="M31 59L39 67L57 48" fill="none" stroke="#42D2AD" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g transform="translate(950 156)"><rect width="88" height="80" rx="18" fill="#183A32" stroke="#3F7D6B" stroke-width="2.5"/><circle cx="44" cy="31" r="6" fill="#65C8AE"/><circle cx="29" cy="55" r="6" fill="#65C8AE"/><circle cx="59" cy="55" r="6" fill="#65C8AE"/><path d="M41 36L33 49M47 36L55 49" stroke="#65C8AE" stroke-width="3" stroke-linecap="round"/></g>
+    <g transform="translate(1064 156)"><rect width="88" height="80" rx="18" fill="#183A32" stroke="#3F7D6B" stroke-width="2.5"/><path d="M44 14L64 21C63 40 56 55 44 66C32 55 25 40 24 21Z" fill="none" stroke="#65C8AE" stroke-width="3.5" stroke-linejoin="round"/><path d="M34 40L42 48L56 34" fill="none" stroke="#F2A65D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
 
-    <g fill="#EAF4F1" font-size="11.5" font-weight="750" text-anchor="middle"><text x="791" y="258">Template / Build</text><text x="908" y="258">CI</text><text x="1022" y="258">Dependencies</text><text x="1121" y="258">Verify</text></g>
-    <g fill="#7FA99D" font-size="9.5" font-weight="700" letter-spacing="1" text-anchor="middle"><text x="791" y="276">01</text><text x="908" y="276">02</text><text x="1022" y="276">03</text><text x="1121" y="276">04</text></g>
+    <g fill="#EAF4F1" font-size="11.5" font-weight="750" text-anchor="middle"><text x="763" y="258">Template / Build</text><text x="880" y="258">CI</text><text x="994" y="258">Dependencies</text><text x="1108" y="258">Verify</text></g>
+    <g fill="#7FA99D" font-size="9.5" font-weight="700" letter-spacing="1" text-anchor="middle"><text x="763" y="276">01</text><text x="880" y="276">02</text><text x="994" y="276">03</text><text x="1108" y="276">04</text></g>
 
   </g>
 </svg>
