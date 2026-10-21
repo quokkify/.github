@@ -1,0 +1,54 @@
+# Org-wide label manifest, synced to every repository by ci-kit.
+# Issue kind (Bug/Feature/Task/RFC) lives in GitHub Issue Types, not labels.
+# Project-specific labels belong in the repository's own .github/labels.yml.
+
+- name: "area: ci"
+  color: "006b75"
+  description: "Workflows, actions, linters, Renovate config, build"
+  aliases: ["ci/cd", "infra"]
+- name: "area: release"
+  color: "006b75"
+  description: "release-please, changelog, versioning, tags"
+  aliases: ["release"]
+- name: "area: template"
+  color: "006b75"
+  description: "ci-kit Copier template: fleet sync, migrations, conflicts"
+- name: "area: ops"
+  color: "006b75"
+  description: "Hosting, deployment, Docker hosts, backups"
+  aliases: ["vps"]
+
+- name: "p1"
+  color: "b60205"
+  description: "Next up: blocks work or users"
+  aliases: ["high"]
+- name: "p2"
+  color: "d93f0b"
+  description: "Planned for the near term"
+  aliases: ["medium"]
+- name: "p3"
+  color: "fbca04"
+  description: "Nice to have, no commitment"
+  aliases: ["low", "priority: lowest"]
+
+- name: "status: needs-decision"
+  color: "5319e7"
+  description: "Needs an owner decision before implementation"
+  aliases: ["draft"]
+
+- name: "good first issue"
+  color: "7057ff"
+  description: "Good for newcomers"
+
+- name: "dependencies"
+  color: "ededed"
+  description: "Managed by Renovate"
+- name: "security"
+  color: "ededed"
+  description: "Renovate vulnerability alert or security hardening"
+- name: "autorelease: pending"
+  color: "ededed"
+  description: "Managed by release-please"
+- name: "autorelease: tagged"
+  color: "ededed"
+  description: "Managed by release-please"
