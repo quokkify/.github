@@ -39,6 +39,7 @@ Browse by purpose: project foundations, CI/CD actions, engineering libraries, ag
 | Repository | Version | Purpose |
 |---|---|---|
 | [`q4j`](https://github.com/quokkify/q4j) | [![Version](https://img.shields.io/github/v/release/quokkify/q4j?label=version&style=flat-square&sort=date)](https://github.com/quokkify/q4j/releases) | Modular Java libraries and integrations for test automation and quality engineering. |
+| [`archgate`](https://github.com/quokkify/archgate) | [![Version](https://img.shields.io/github/v/release/quokkify/archgate?label=version&style=flat-square&sort=date)](https://github.com/quokkify/archgate/releases) | Architecture rules as a build gate: ArchUnit, JavaParser, and ClassGraph checks with Maven and Gradle plugins. |
 
 ### Agent resources
 
@@ -60,6 +61,7 @@ Projects that apply these engineering practices to automotive services, marketpl
 
 - **Start or standardize a project:** generate CI and repository automation with `ci-kit`; add Java test automation with `java-test-automation-template`.
 - **Improve an existing pipeline:** choose individual actions, dependency presets, or libraries without adopting the whole collection.
+- **Guard architecture in the build:** fail Maven or Gradle builds on architecture rule violations with `archgate`.
 - **Work with AI agents:** explore `skills` for portable workflows and execution patterns.
 - **Explore practical applications:** visit the application repositories for setup instructions, demos, and project-specific capabilities.
 
