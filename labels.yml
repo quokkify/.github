@@ -36,6 +36,10 @@
   description: "Needs an owner decision before implementation"
   aliases: ["draft"]
 
+- name: "status: auto-merge"
+  color: "0e8a16"
+  description: "Merged by the scheduled auto-merge workflow once checks pass"
+
 - name: "good first issue"
   color: "7057ff"
   description: "Good for newcomers"
